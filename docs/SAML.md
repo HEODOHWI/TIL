@@ -5,6 +5,23 @@
 
 **Internet SSO/Security/Accesss/Admin**
 
+네트워크를 통해 여러 컴퓨터에서 보안 자격 증명을 공유할 수 있도록 하는 개발형 표준 테이터 포맷으로 2005년 3월 SAML2.0은 OASIS 표준이다.
+인증 정보 제공자(identity provider)와 서비스 제공자(service provider) 간의 인증 및 인가 데이터를 XML기반 메시지로 교환하게 된다.
+
+인증(Authentication) : 사용자가 자신이 주장하는 사람임을 확인
+권한 부여(Authorization) : 사용자가 특정 시스템이나 콘텐츠에 접속할 수 있는 권한이 있는지 확인
+2. SAML기반 인증 흐름
+SAML 스펙은 3개의 역할을 정의한다:
+
+주체(일반적으로 사용자)
+인증 정보 제공자(identity provider, IdP) : 사용자 크리덴셜 (사용자명과 패스워드)을 인증하고 SAML Assertion을 발행
+서비스 제공자(service provider, SP) : 클라이언트가 접근하려는 애플리케이션 또는 서비스
+SAML기반 통합 인증 사용예로,
+
+주체는 서비스를 서비스 제공자로부터 요청한다. 이 서비스 제공자(SP)는 식별 어서션(assertion)을 인증 정보 제공자(IdP)로부터 요청하여 가져온다. 이 어서션(assertion)에 기초하여, 서비스 제공자(SP)는 접근을 제어한다. 즉, 연결된 주체에 대해 일부 서비스를 수행할지의 여부를 결정할 수 있다.
+
+
+
 많은 기업에서 SAML 2.0 기반의 SSO를 구현하는 이유는 다음과 같은 이점이 있기 때문입니다.
 
 1. 암호 피로 (Password fatigue) 감소
