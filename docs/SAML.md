@@ -21,7 +21,7 @@
 ## SAML 기반의 SSO 주요 요소
 SAML 의 동작 방식을 이해하기 위해서 먼저 몇가지 구성 요소를 살펴보겠습니다.
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbCGBxm%2FbtqDw4ebkOY%2FQLtJKyfnRL7w7dRKv0jSdK%2Fimg.png)
 
 클라이언트
 웹브라우저 또는 단말
