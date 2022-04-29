@@ -1,8 +1,6 @@
-### SAML2.0
+# SAML 기술소개
 
-## SAML 기술소개
-
-▶ SAML은 Security Assertion Markup Language의 줄임마로써, 같은 네트워크 내의 인증과 권한에 관한 데이타를 서로 교환하기 위한 표준입니다.
+## SAML은 Security Assertion Markup Language의 줄임마로써, 같은 네트워크 내의 인증과 권한에 관한 데이타를 서로 교환하기 위한 표준입니다.
 주로 아래 4가지 사항을 위해 이용되는데, 제일 중점적으로 쓰이는 곳은 웹기반은 SSO 인증을 위한 경우 입니다.
 Internet SSO
 Security
@@ -23,7 +21,7 @@ Admin
 4. 개인 생산성 향상
 - 지속적으로 패스워드를 재입력하는 과정이 생략되고, 패스워드 재설정 및 복구에 따른 과정이 필요없음
 
-▶SAML 기반의 SSO 주요 요소
+## SAML 기반의 SSO 주요 요소
 SAML 의 동작 방식을 이해하기 위해서 먼저 몇가지 구성 요소를 살펴보겠습니다.
 
 
